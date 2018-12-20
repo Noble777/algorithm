@@ -1,3 +1,5 @@
+package Leetcode;
+
 /**
  * Created by apple on 18/9/26.
  */

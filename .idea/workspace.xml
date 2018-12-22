@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8ecce93-a547-4fd9-884e-329ac7137a97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algorithms/SwordForOffer/Test01$MyString.class" afterPath="$PROJECT_DIR$/out/production/algorithms/SwordForOffer/Test01$MyString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algorithms/SwordForOffer/Test01.class" afterPath="$PROJECT_DIR$/out/production/algorithms/SwordForOffer/Test01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SwordForOffer/Test01.java" afterPath="$PROJECT_DIR$/src/SwordForOffer/Test01.java" />
-    </list>
+    <list default="true" id="a8ecce93-a547-4fd9-884e-329ac7137a97" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test02.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SwordForOffer/Test02.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+              <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
               <folding>
                 <element signature="e#1032#1033#0" expanded="true" />
                 <element signature="e#1063#1064#0" expanded="true" />
@@ -43,6 +38,16 @@
                 <element signature="e#4154#4155#0" expanded="true" />
                 <element signature="e#4191#4192#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test03.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SwordForOffer/Test03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/Leetcode/Lc26.java" />
         <option value="$PROJECT_DIR$/src/SwordForOffer/Test01.java" />
         <option value="$PROJECT_DIR$/src/SwordForOffer/Test02.java" />
+        <option value="$PROJECT_DIR$/src/SwordForOffer/Test03.java" />
       </list>
     </option>
   </component>
@@ -114,8 +120,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="279" />
+    <option name="x" value="224" />
+    <option name="y" value="42" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
   </component>
@@ -711,15 +717,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545340420128</updated>
-      <workItem from="1545340423974" duration="3589000" />
+      <workItem from="1545340423974" duration="5078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3589000" />
+    <option name="totallyTimeSpent" value="5078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="279" width="1280" height="723" extended-state="0" />
+    <frame x="224" y="42" width="1280" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -806,7 +812,7 @@
     <entry file="file://$PROJECT_DIR$/src/SwordForOffer/Test02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+          <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
           <folding>
             <element signature="e#1032#1033#0" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
@@ -817,6 +823,14 @@
             <element signature="e#4154#4155#0" expanded="true" />
             <element signature="e#4191#4192#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordForOffer/Test03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

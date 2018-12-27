@@ -141,20 +141,52 @@ public class Test03 {
         return -1;
     }
 
+    // version6: range二分，不会改变原数据，时间O(nlogn)， 空间O(1)
+    public static int getDuplication6(int[] data) {
+        if (data == null || data.length < 2) {
+            return -1;
+        }
+
+        int low = 0;
+        int high = data.length - 1;
+        int mid;
+        int count;
+        while (low < high) {
+            mid = low + (high - low)/2;
+            count = 0;
+            for (int i = 0; i < data.length; i++) {
+                if (data[i] <= mid) {
+                    count++;
+                }
+            }
+            System.out.println(mid + "   " + count);
+            if (count > mid + 1) {
+                high = mid;
+            }
+            else {
+                low = mid + 1;
+            }
+
+        }
+        return low;
+    }
+
     public static void main(String[] args){
-        int[] data = {2,3,2,0,1,5,3};
-        System.out.println(getDuplication(data));
-        System.out.println(getDuplication2(data));
-        System.out.println(getDuplication3(data));
-        System.out.println(getDuplication4(data));
-        System.out.println(getDuplication5(data));
+        int[] data = {2,3,1,0,2,5,3};
+//        System.out.println(getDuplication(data));
+//        System.out.println(getDuplication2(data));
+//        System.out.println(getDuplication3(data));
+//        System.out.println(getDuplication4(data));
+//        System.out.println(getDuplication5(data));
+        System.out.println(getDuplication6(data));
 
         int[] data1 = {2,3,1,0,4,5,5};
-        System.out.println(getDuplication(data1));
-        System.out.println(getDuplication2(data1));
-        System.out.println(getDuplication3(data1));
-        System.out.println(getDuplication4(data1));
-        System.out.println(getDuplication5(data1));
+//        System.out.println(getDuplication(data1));
+//        System.out.println(getDuplication2(data1));
+//        System.out.println(getDuplication3(data1));
+//        System.out.println(getDuplication4(data1));
+//        System.out.println(getDuplication5(data1));
+        System.out.println(getDuplication6(data1));
     }
 
 }

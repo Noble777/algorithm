@@ -28,6 +28,7 @@ public class Test06 {
         }
     }
 
+    // 递归的本质也是一个栈结构
     public static void reversePrintbyRecursion(ListNode root) {
         if (root != null) {
             reversePrintbyRecursion(root.next);

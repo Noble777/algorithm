@@ -22,7 +22,7 @@ public class Test12 {
         return false;
     }
     public static boolean hasPathCore(char[][] data,int rowIndex,int colIndex,
-                                      boolean[][] visitFlag,String str,int strIndex){
+                                      boolean[][] visitFlag, String str, int strIndex){
         //结束条件
         if(strIndex>=str.length()) return true;
         if(rowIndex<0 || colIndex<0 || rowIndex>=data.length || colIndex>=data[0].length)
@@ -35,8 +35,8 @@ public class Test12 {
             boolean result =
                     hasPathCore(data,rowIndex+1,colIndex,visitFlag,str,strIndex+1) ||
                             hasPathCore(data,rowIndex-1,colIndex,visitFlag,str,strIndex+1) ||
-                            hasPathCore(data,rowIndex,colIndex+1,visitFlag,str,strIndex+1) ||
-                            hasPathCore(data,rowIndex,colIndex-1,visitFlag,str,strIndex+1);
+                            hasPathCore(data, rowIndex,colIndex+1,visitFlag,str,strIndex+1) ||
+                            hasPathCore(data, rowIndex,colIndex-1,visitFlag,str,strIndex+1);
             //已经求的结果，无需修改标记了
             if(result)
                 return true;

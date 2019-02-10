@@ -46,4 +46,19 @@ public class Test15 {
         System.out.println(-1 + "has " + countOne3(-1) + " times 1.");
 
     }
+
+    /** 相关题：
+     * 1.使用一条语句判断一个正整数是不是2的整数次方，那么他的二进制表示中有且仅有一位是1。
+     */
+    public static boolean isPowerOfTwo(int n){
+        return (n&(n-1))==0;
+    }
+
+    /** 相关题：
+     * 2.输入两个整数m和n，计算需要改变m的二进制表示中的多少位才能得到n
+     * step1.对m和n求这两个数的异或
+     * step2.统计异或结果中的1的个数。
+     */
 }
+
+

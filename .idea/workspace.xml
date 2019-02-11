@@ -33,11 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SwordForOffer/Test16.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
               <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SwordForOffer/Test17.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+              <folding>
+                <element signature="e#2066#2067#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,12 +94,13 @@
         <option value="$PROJECT_DIR$/src/SwordForOffer/Test14.java" />
         <option value="$PROJECT_DIR$/src/SwordForOffer/Test15.java" />
         <option value="$PROJECT_DIR$/src/SwordForOffer/Test16.java" />
+        <option value="$PROJECT_DIR$/src/SwordForOffer/Test17.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="130" />
+    <option name="x" value="4" />
+    <option name="y" value="87" />
     <option name="width" value="1280" />
     <option name="height" value="676" />
   </component>
@@ -128,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549839093763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549856937262" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -149,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test16">
+  <component name="RunManager" selected="Application.Test17">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -179,20 +192,6 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwordForOffer.Test12" />
-      <module name="algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwordForOffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,6 +240,20 @@
     </configuration>
     <configuration name="Test16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SwordForOffer.Test16" />
+      <module name="algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwordForOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordForOffer.Test17" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -363,19 +376,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Test12" />
       <item itemvalue="Application.Test13" />
       <item itemvalue="Application.Test14" />
       <item itemvalue="Application.Test15" />
       <item itemvalue="Application.Test16" />
+      <item itemvalue="Application.Test17" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test17" />
         <item itemvalue="Application.Test16" />
         <item itemvalue="Application.Test15" />
         <item itemvalue="Application.Test14" />
         <item itemvalue="Application.Test13" />
-        <item itemvalue="Application.Test12" />
       </list>
     </recent_temporary>
   </component>
@@ -397,15 +410,15 @@
       <workItem from="1547681332929" duration="3718000" />
       <workItem from="1548297800268" duration="2243000" />
       <workItem from="1548447330793" duration="6695000" />
-      <workItem from="1549763396453" duration="6076000" />
+      <workItem from="1549763396453" duration="10385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74161000" />
+    <option name="totallyTimeSpent" value="78470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="254" width="1280" height="676" extended-state="0" />
+    <frame x="4" y="87" width="1280" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
@@ -706,6 +719,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordForOffer/Test17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+          <folding>
+            <element signature="e#2066#2067#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

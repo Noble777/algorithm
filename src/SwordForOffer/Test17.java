@@ -79,7 +79,7 @@ public class Test17 {
             printToMaxRecursively(number, n, index + 1);
         }
     }
-    
+
 
     public static void main(String[] args) {
         printNum2(3);

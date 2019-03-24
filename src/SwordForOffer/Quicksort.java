@@ -53,6 +53,11 @@ public class Quicksort {
             if (i >= j) break;
             exch(a, i, j);
         }
+//        while (i < j) {
+//            if (less(a[j--], v)) {
+//                exch(a, ++i, ++j);
+//            }
+//        }
         // put pivot at the a[j]
         exch(a, lo, j);
         // now, a[0,..., j -1] <= a[j] <= a[j + 1,...., hi]

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8ecce93-a547-4fd9-884e-329ac7137a97" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/FB/LC298.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FB/LC298.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FB/LC298.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FB/LC298.java" afterDir="false" />
-    </list>
+    <list default="true" id="a8ecce93-a547-4fd9-884e-329ac7137a97" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FB/CloneGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            <state relative-caret-position="348">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FB/LC791.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -97,11 +102,13 @@
         <option value="$PROJECT_DIR$/src/FB/UniqueArrayElement.java" />
         <option value="$PROJECT_DIR$/src/FB/LC298.java" />
         <option value="$PROJECT_DIR$/src/FB/CloneGraph.java" />
+        <option value="$PROJECT_DIR$/src/FB/LC791.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-27" />
+    <option name="y" value="35" />
     <option name="width" value="1280" />
     <option name="height" value="676" />
   </component>
@@ -142,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553466477671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553630550428" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -167,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC298">
+  <component name="RunManager" selected="Application.LC791">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -215,13 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwordForOffer.Quicksort" />
+    <configuration name="LC791" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FB.LC791" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwordForOffer.*" />
+          <option name="PATTERN" value="FB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,8 +236,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwordForOffer.Test16" />
+    <configuration name="Quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordForOffer.Quicksort" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -381,19 +388,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Test16" />
       <item itemvalue="Application.Test17" />
       <item itemvalue="Application.Quicksort" />
       <item itemvalue="Application.UniqueArrayElement" />
       <item itemvalue="Application.LC298" />
+      <item itemvalue="Application.LC791" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC791" />
         <item itemvalue="Application.LC298" />
         <item itemvalue="Application.UniqueArrayElement" />
         <item itemvalue="Application.Quicksort" />
         <item itemvalue="Application.Test17" />
-        <item itemvalue="Application.Test16" />
       </list>
     </recent_temporary>
   </component>
@@ -418,15 +425,15 @@
       <workItem from="1549763396453" duration="15744000" />
       <workItem from="1550028138438" duration="1300000" />
       <workItem from="1553459699134" duration="3135000" />
-      <workItem from="1553483612914" duration="660000" />
+      <workItem from="1553483612914" duration="1705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88924000" />
+    <option name="totallyTimeSpent" value="89969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-45" y="94" width="1280" height="676" extended-state="0" />
+    <frame x="79" y="122" width="1280" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28594506" />
@@ -750,8 +757,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FB/CloneGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        <state relative-caret-position="348">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FB/LC791.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
